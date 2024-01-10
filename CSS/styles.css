@@ -30,7 +30,7 @@ html::-webkit-scrollbar-thumb {
 body {
   background: #111;
   overflow-x: hidden;
-  padding-left: 35rem;
+  padding-left: 40rem;
 }
 
 /* header */
@@ -50,8 +50,8 @@ header {
   text-align: center;
 }
 .user img {
-  height: 17rem;
-  width: 17rem;
+  height: 15rem;
+  width: 15rem;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
@@ -72,16 +72,16 @@ header {
 }
 .navbar ul {
   list-style: none;
-  padding: 1rem 3rem;
+  padding: 1rem;
 }
 .navbar ul li a {
   display: block;
-  padding: 1rem;
-  margin: 1.5rem 0;
+  padding: 0.9rem;
+  margin: 0.6rem;
   background: #333;
   color: #fff;
   font-size: 2rem;
-  border-radius: 5rem;
+  border-radius: 3rem;
 }
 .navbar ul li a:hover {
   background: yellow;
@@ -312,21 +312,20 @@ btn i {
   padding-right: 1rem;
   color: yellow;
 }
-.top{
+.top {
   position: fixed;
-  bottom: 7.5rem; right: 2rem;
+  bottom: 7.5rem;
+  right: 2rem;
   z-index: 100;
-  display: none; 
-  
+  display: none;
 }
-.top img{
+.top img {
   height: 10rem;
   width: 10rem;
   border-radius: 20%;
   object-fit: cover;
   margin-bottom: 1rem;
 }
-
 
 /* media queries */
 @media (max-width: 1200px) {
@@ -369,7 +368,7 @@ btn i {
   .education .box-container .box {
     width: 100%;
   }
-  .contact .row .form{
+  .contact .row .form {
     margin: 3rem 0;
   }
 }
